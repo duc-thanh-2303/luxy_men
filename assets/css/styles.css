@@ -234,7 +234,7 @@ img {
   /* position: absolute; */
   object-fit: cover;
   object-position: center;
-  margin-top: 150px;
+  margin-top: -50px;
   right: 1rem;
 }
 
@@ -248,7 +248,7 @@ img {
 
 .home__title {
   position: absolute;
-  top: -4rem;
+  top: -6rem;
   left: 1rem;
   line-height: 6rem;
   font-size: var(--biggest-font-size);
@@ -362,13 +362,14 @@ img {
 }
 
 .case__data {
-  padding: 5rem 0 3rem;
+  padding: 13rem 0 3rem;
 }
 
 .case__img {
   width: 250px;
   position: absolute;
-  left: -7rem;
+  left: 1rem;
+  top: -3rem;
 }
 
 .case__description {
@@ -394,10 +395,10 @@ img {
 }
 
 .discount__img {
-  width: 300px;
+  width: 130px;
   position: absolute;
-  top: 4rem;
-  right: -11rem;
+  top: 3rem;
+  right: 1rem;
 }
 
 /*=============== PRODUCTS ===============*/
