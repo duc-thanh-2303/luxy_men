@@ -314,7 +314,7 @@ img {
 
 /*=============== SPONSOR ===============*/
 .sponsor__img {
-  width: 90px;
+  width: 50px;
 }
 
 .sponsor__container {
@@ -714,6 +714,7 @@ img {
   }
   .case__img {
     width: 300px;
+    margin-top: -5rem;
   }
   .case__description {
     margin-bottom: var(--mb-2);
