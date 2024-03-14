@@ -741,7 +741,8 @@ img {
     padding: .85rem;
   }
   .products__img {
-    width: 95px;
+    width: 120px;
+    margin-top: 1rem;
   }
   .footer__container {
     grid-template-columns: .4fr .7fr .7fr 1fr;
