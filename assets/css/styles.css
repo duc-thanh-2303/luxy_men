@@ -134,6 +134,14 @@ img {
   display: grid;
 }
 
+.grid-v2 {
+  display: grid;
+  grid-template-rows: auto auto; /* Hai hàng tự động */
+  grid-template-columns: auto auto; /* Hai cột tự động */
+  gap: 10px; /* Khoảng cách giữa các ô */
+}
+
+
 /*=============== HEADER ===============*/
 .header {
   width: 100%;
@@ -699,7 +707,7 @@ img {
     padding-top: 8rem;
   }
   .specs__img {
-    width: 300px;
+    width: 400px;
   }
   .case__container {
     column-gap: 5rem;
@@ -747,12 +755,15 @@ img {
     margin-right: auto;
   }
   .home__img {
-    width: 300px;
-    top: -15rem;
+    position: relative;
+    width: 400px;
+    top: 5rem;
+    left: 2rem;
   }
+
   .home__title {
     top: -5rem;
-    left: 3.5rem;
+    left: -0.5rem;
   }
   .home__description {
     padding-right: 5rem;
